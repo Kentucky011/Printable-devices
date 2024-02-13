@@ -1,3 +1,5 @@
+import ex.DeviceUnavailableException;
+
 public interface Pritables {
-    public void print();
+    public void print() throws DeviceUnavailableException;
 }
